@@ -2,6 +2,9 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme-without-fonts'
+import Layout from './layouts/Layout.vue'
+import Banner from './components/Banner.vue'
+import Message from 'primevue/message'
 import PrimeVue from 'primevue/config'
 import Ripple from 'primevue/ripple';
 import Card from 'primevue/card'
@@ -13,7 +16,8 @@ import './style.scss'
 export default {
   extends: DefaultTheme,
   Layout: () => {
-    return h(DefaultTheme.Layout, null, {
+    return h(Layout, null, {
+      banner: () => h(Banner)
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
     })
   },

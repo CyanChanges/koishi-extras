@@ -44,6 +44,8 @@ export default defineConfig({
       { text: 'Advanced', link: '/advanced' }
     ],
 
+    search: undefined,
+
     sidebar: {
       "/beginner": [{
         text: "Beginner",
