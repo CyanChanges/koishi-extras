@@ -40,12 +40,6 @@ title: Beginner
 
 - [Bun](https://bun.sh/) >= 1.1.38 或 [Deno](https://deno.land/) >= 2.1.2
 
-::: info
-Deno 中无法运行 `database-sqlite` 插件,  
-且 `process.cpuUsage()` 暂未实现 (不过我已经创建 PR [#27217](https://github.com/denoland/deno/pull/27217) 实现).  
-所以这里更加推荐使用 Bun 开发 (据说 Bun 对 Windows 支持略差, Windows 用户谨慎选择)
-:::
-
 要使用 [Node.js](https://nodejs.org/), 那么建议另外选择安装一个包管理器: 
 
 - [pnpm](https://pnpm.io/)
