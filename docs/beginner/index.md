@@ -45,7 +45,7 @@ title: Beginner
 - [pnpm](https://pnpm.io/)
 - [Yarn Berry](https://yarnpkg.com/)
 
-其中 pnpm 速度最快, Yarn 可能略慢
+其中据说 pnpm 速度最快, 但是这里感受上感觉 pnpm 不是非常快
 
 ::: tip
 如果您遇到 Corepack 锁定包管理器的问题,  
